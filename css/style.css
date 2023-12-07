@@ -21,9 +21,9 @@ main{
 }
 
 .projtitul {
-    color: #8F43EE;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    color: orange;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 #gradeprojetos {
@@ -55,4 +55,64 @@ main{
 .imgproj {
     height: 100px;
     border-radius: 20px;
+}
+
+#gradejob {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.jobs {
+    width: 20%;
+    height: 250px;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.iconjob { 
+    height: 50px;
+    margin-top: 15px;
+}
+
+h1{
+    font-size: 30px
+}
+
+h2{
+    margin-top: 15px;
+    font-size: 20px
+}
+
+h1,h2 {
+    color: black;
+}
+
+#heletri {
+    color:orange;
+    font-size: 30px;
+}
+
+.gradeimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#phot1 {
+    height: 400px;
+    margin-right: 20px;
+}
+
+#phot2 {
+    height: 400px;
+
+}
+
+#phot1, #phot2 {
+    border-radius: 30px;
 }
