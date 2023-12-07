@@ -1,0 +1,35 @@
+
+
+header {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    background-color: #8F43EE;
+}
+
+#pau {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.legal { 
+    color: black;
+}
+
+.legale { color: #8F43EE;
+}
+
+#fotoperfil{
+    height: 200px;
+    border-radius: 100px;
+}
+
+#seloqualidade {
+    height: 300px;
+    
+}
