@@ -116,3 +116,29 @@ h1,h2 {
 #phot1, #phot2 {
     border-radius: 30px;
 }
+
+#titumod > h1 {
+    color: orange;
+    margin-bottom: 50px;
+}
+
+.modimg{
+    height: 250px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#modtot{
+    margin-bottom: 50px;
+}
+
+#fut{
+    background-color: orange;
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
+
