@@ -114,6 +114,22 @@ header {
     background-color: orange;
 }
 
+.iconredes {
+    height: 40px;
+    margin: 20px;
+    transition-duration: 0,7s;
+    color: #ffffff;
+}
+
+.iconredes:hover{
+    filter: invert(100%) sepia(98%) saturate(9%) hue-rotate(191deg) brightness(102%) contrast(99%);
+}
+
+#redessociais{
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
 #pau {
     height: 400px;
     display: flex;
@@ -136,6 +152,13 @@ header {
 #fotoperfil{
     height: 200px;
     border-radius: 100px;
+    transition-duration: 0.5s ;
+}
+
+#fotoperfil:hover{
+    height: 250px;
+    border-radius: 100%;
+    border: 5px solid black;
 }
 
 #seloqualidade {
